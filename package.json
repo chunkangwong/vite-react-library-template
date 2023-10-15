@@ -1,0 +1,46 @@
+{
+  "name": "vite-react-library-template",
+  "description": "A Vite + React library template",
+  "author": {
+    "name": "Chun Kang WONG",
+    "email": "chunkang.wong94@gmail.com"
+  },
+  "keywords": [
+    "vite",
+    "react"
+  ],
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunkangwong/grid-query-features"
+  },
+  "license": "MIT",
+  "main": "./dist/useCounter.umd.js",
+  "types": "./dist/useCounter.d.ts",
+  "module": "./dist/useCounter.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/useCounter.d.ts",
+      "import": "./dist/useCounter.es.js",
+      "require": "./dist/useCounter.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@types/react": "^18.2.15",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0"
+  }
+}

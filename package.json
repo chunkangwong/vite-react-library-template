@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chunkangwong/grid-query-features"
+    "url": "https://github.com/chunkangwong/vite-react-library-template"
   },
   "license": "MIT",
   "main": "./dist/useCounter.umd.js",
